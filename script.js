@@ -85,11 +85,11 @@ function data(thing) {
 function imgobj(url) {
 	imgready = false;
 	img = new Image();
-	img.src = url;
+	img.src = "https://api.duckduckgo.com" +url;
 	img.onload =  function () {
 		imgready = true;
 	};
-	img.src = url;
+	//img.src = url;
 }
 
  /**
